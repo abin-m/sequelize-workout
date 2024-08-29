@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize');
 
 // Setting up a new Sequelize instance
-const sequelize = new Sequelize('node_sequelize_api_db', 'root', 'Wakanda@123', {
+const sequelize = new Sequelize('node_sequelize_api_db', 'root', 'WakandaForEver', {
     host: 'localhost',
     dialect: 'mysql',
 });
